@@ -45,3 +45,40 @@
 #img-model{
     width: 100%;
 }
+
+.faixa{
+    background-color: #a31849;
+    width: 1900px;
+    position: relative;
+    height: 300px;
+    padding: 80px;
+}
+
+.desbloqhead{
+    background-color: #f5542f;
+    color: #fff9f1;
+    padding: 14px 34px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+    margin-top: -60px;
+}
+
+.faixacont{
+    margin: auto;
+    padding: 20px;
+    width: 650px;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    position: relative;    
+}
+
+#desbloqtext{
+    display: flex;
+    color: #fff9f1;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 29px;
+    text-align: center;
+}
