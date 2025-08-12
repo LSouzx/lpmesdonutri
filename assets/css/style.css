@@ -48,7 +48,7 @@
 
 .faixa{
     background-color: #a31849;
-    width: 1900px;
+    width: 100%px;
     position: relative;
     height: 300px;
     padding: 80px;
@@ -68,10 +68,11 @@
 .faixacont{
     margin: auto;
     padding: 20px;
-    width: 650px;
+    width: 650px ;
     border: 1px solid #FFF;
     border-radius: 20px;
-    position: relative;    
+    position: relative;
+    margin-top: 60px;    
 }
 
 #desbloqtext{
@@ -81,4 +82,77 @@
     margin-top: 20px;
     font-size: 29px;
     text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.quadrados{
+    display: flex;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.titulos{
+    font-size: 26px;
+    color: #FFF9F1;
+}
+
+.paragrafos{
+    font-size: 20px;
+    color: #FFF9F1;
+    margin-top: 24px;
+}
+
+#orange{
+    background-color: #f5542f;
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#red{
+    background-color: #a31849;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.orange-red{
+    width: 33%;
+}
+
+#blue2{
+    width: 33%;
+    border-radius: 14px;
+    /* padding: 30px;  */
+    background-color: #b7c9fb;
+    position: relative;
+    
+}
+
+#blue2 img{
+    width: 100%;
+    position: absolute;
+    bottom: -32px;
+}
+
+#blue{
+    width: 33%;
+    background-color: #3d569A;
+    border-radius: 14px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#blue img{
+    width: 100%;
+    /* position: absolute; */
 }
